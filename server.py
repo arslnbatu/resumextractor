@@ -19,9 +19,6 @@ from itertools import zip_longest
 # Load spacy pre-trained model
 nlp = spacy.load('en_core_web_sm')
 
-# Timezone
-timezone = pytz.timezone('Asia/Jakarta')
-
 # Regex / Reference List
 UNIVERSITIES_REF = 'davinci\\reference\\world-universities.csv'
 MAJOR_REF = 'davinci\\reference\\majors-list.csv'
