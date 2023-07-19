@@ -19,17 +19,6 @@ from itertools import zip_longest
 # Load spacy pre-trained model
 nlp = spacy.load('en_core_web_sm')
 
-# Regex / Reference List
-UNIVERSITIES_REF = 'davinci\\reference\\world-universities.csv'
-MAJOR_REF = 'davinci\\reference\\majors-list.csv'
-SKILL_REF = 'davinci\\reference\\skills.csv'
-DEGREE_REF = ['s3', 'doctoral', 'doktor', 's2', 'master', 'magister', 's1', 'bachelor', 'sarjana', 'vokasi', 'lisans', 'yuksek lisans']
-LANG_REF = 'davinci\\reference\\lang-list.csv'
-OCCUPATION_REF = 'davinci\\reference\\occupation.csv'
-BIRTHPLACE_REF = 'davinci\\reference\\birthplace.csv'
-PHONE_REG = re.compile(r'[\+\(]?[1-9][0-9 .\-\(\)]{8,}[0-9]')
-EMAIL_REG = re.compile(r'[a-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]+')
-WEB_REG = re.compile(r'\b(?:https?://)?(?:(?:www\.)?(?:[\da-z\.-]+)\.(?:[a-z]{2,6})(?:/[\w\.-]*)*/?)')
 
 
 # Function
