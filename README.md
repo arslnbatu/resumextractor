@@ -1,6 +1,6 @@
 # Resume Extract Project
 
-![Project Logo](logo.png)
+
 
 The Resume Extract Project is an innovative machine learning-based application that aims to streamline the process of extracting essential information from resumes, such as education, experience, and skills. 
 Leveraging the power of machine learning models and the OpenAI API, this project achieves high accuracy in parsing and extracting crucial details from a diverse range of resumes.
